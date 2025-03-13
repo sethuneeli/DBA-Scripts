@@ -128,7 +128,7 @@ GO
 CREATE PROCEDURE [dbo].[pr_LogToFile] (
     @TextToWrite        VARCHAR(512) = NULL,
     @FileName           VARCHAR(256) = NULL,
-    @IncludeDelimiters  BIT = 0)
+    @IncludeDelimiters1  BIT = 0)
 
 AS
 -- --------------------------------------------------------------------------------------------------
